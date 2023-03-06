@@ -1,7 +1,4 @@
-# uzywam reszty z dzielena ale
-# nadal mi nie dziala
-# nie wiem o co chodzi
-# proszę o podpowiedź
+#nadal nie wiem o co chodzi
 
 def szyfr(move,text):
     text2 = ''

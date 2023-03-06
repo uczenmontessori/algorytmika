@@ -1,5 +1,5 @@
 #nadal nie wiem o co chodzi
-
+#...
 def szyfr(move,text):
     text2 = ''
     move2 = (move%26)

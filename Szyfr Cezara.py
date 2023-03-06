@@ -1,3 +1,8 @@
+# uzywam reszty z dzielena ale
+# nadal mi nie dziala
+# nie wiem o co chodzi
+# proszę o podpowiedź
+
 def szyfr(move,text):
     text2 = ''
     move2 = (move%26)

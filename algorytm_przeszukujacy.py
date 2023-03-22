@@ -6,15 +6,15 @@ a.append(100)
 a = sorted(a)
 # print(a)
 licznik_1 = 0
-def wyszukiwanie()
-for element in a:
-    licznik_1 +=1 
-    if element == 100:
-        print("W liście a jest", element)
-        break
-else:
-    print('nie ma 100')
-print('licznik_1', licznik_1)
+def wyszukiwanie():
+    for element in a:
+        licznik_1 +=1 
+        if element == 100:
+            print("W liście a jest", element)
+            break
+    else:
+        print('nie ma 100')
+    print('licznik_1', licznik_1)
 
 
 def divide(l):
@@ -31,4 +31,5 @@ for x in range(len(a)):
     if l1[len(l1)] > 100:
         l1, l2 = divide(l1)
         break
+print(licznik_1)
 

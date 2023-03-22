@@ -32,4 +32,4 @@ for x in range(len(a)):
         l1, l2 = divide(l1)
         break
 print(licznik_1)
-
+#commit

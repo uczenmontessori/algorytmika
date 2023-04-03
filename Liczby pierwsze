@@ -1,0 +1,27 @@
+def liczba_pierwsza(a):
+    a1=0
+    x = 2
+    for _ in range(a-2):
+        if a % x == 0:
+            print(a,"Nie jest liczbą pierwszą")
+            f = 1
+            a1=1
+            break
+        else:
+            x += 1
+    if a1 == 0:
+        if a == 1:
+            print(a, "Nie jest liczbą pierwszą")
+            f = 1
+        else:
+            print(a,"Jest liczbą pierwszą")
+            f = 2
+    return f
+#jeżeli zmienna f = 1 podana liczba nie jest liczbą pierwszą jeżeli f = 2 to podana liczba jest liczbą pierwszą
+l=[]
+y = 1
+for x in range (100000):
+    if liczba_pierwsza(y) == 2:
+        l.append(y)
+    y += 1
+print(l)
